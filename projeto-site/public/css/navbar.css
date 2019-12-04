@@ -1,0 +1,639 @@
+* {box-sizing: border-box;}
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('/fonts/league-gothic-master/league-gothic-master/webfonts/leaguegothic-condensed-italic-webfont.woff');
+}
+
+body { 
+  margin: 0;
+  font-family: 'MyWebFont', Fallback, sans-serif;
+  background-color: #1a1b1b;
+}
+
+.fundo {
+  width: 100%;
+  margin-top: 0%;
+  background-color: rgb(29, 29, 29);
+}
+
+.img {
+  margin-left: 0;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+
+.video {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.icone {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+}
+
+.logo {
+  width: 40%;
+}
+
+.tags {
+  width: 15%;
+  height: 37%;
+  padding: 0px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-left: 0;
+  border-radius: 10%;
+  background-color: rgb(19, 18, 18);
+}
+
+.tagsselecionada {
+  width: 15%;
+  height: 37%;
+  padding: 0px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-left: 0;
+  border-radius: 10%;
+  background-color: rgba(16, 149, 143, 0.465);
+}
+
+.alinhado_txt {
+  text-align: center;
+  margin-top: 30%;
+}
+
+.acao {
+  position: absolute;
+  top: 120%;
+  left: 3%;
+}
+
+.aventura {
+  position: absolute;
+  top: 120%;
+  left: 22%;
+}
+
+.rpg {
+  position: absolute;
+  top: 120%;
+  left: 42%;
+}
+
+.plataforma {
+  position: absolute;
+  top: 120%;
+  left: 62%;
+}
+
+.multiplayer {
+  position: absolute;
+  top: 120%;
+  left: 82%;
+}
+
+.img_tag {
+  width: 45%;
+  margin-top: 10%;
+  position: relative;
+  left: 25%;
+}
+
+.sublinhado {
+  width: 98%;
+  height: 1%;
+  border-radius: 10%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 177%;
+}
+
+.selecionado {
+  width: 13%;
+  height: 6%;
+  border-radius: 10%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 172%;
+}
+
+.selecionado2 {
+  width: 10%;
+  height: 6%;
+  border-radius: 10%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 172%;
+  left: 14%;
+}
+
+.n_selecionado {
+  width: 13%;
+  height: 6%;
+  border-radius: 10%;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 172%;
+  left: 14%;
+}
+
+.n_selecionado2 {
+  width: 13%;
+  height: 6%;
+  border-radius: 10%;
+  background-color: rgba(0, 0, 0, 0.239);
+  position: absolute;
+  top: 172%;
+}
+
+.tagacao {
+  width: 9%;
+  height: 5%;
+  background-color: rgba(16, 149, 143, 0.465);
+  position: absolute;
+  top: 172%;
+  left: 85%;
+}
+
+.tagaaventura {
+  width: 12%;
+  height: 5%;
+  background-color: rgba(16, 149, 143, 0.465);
+  position: absolute;
+  top: 172%;
+  left: 85%;
+}
+
+.tagplataforma {
+  width: 13%;
+  height: 5%;
+  background-color: rgba(16, 149, 143, 0.465);
+  position: absolute;
+  top: 172%;
+  left: 85%;
+}
+
+.topjogos {
+  margin-top: 3%;
+  margin-left: 6%;
+}
+
+.button {
+  background-color: rgba(76, 175, 79, 0); /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.div-jogos {
+  padding: 15px;
+}
+
+.caixas {
+  width: 30%;
+  height: 50%;
+  padding: 0px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(19, 18, 18);
+  margin-left: 0;
+}
+
+.imgs_caixas {
+  width: 100%;
+  border-radius: 5%;
+  height: 70%;
+}
+
+.classific {
+  width: 13%;
+  margin-left: 3%;
+}
+
+.nome_jogo {
+  font-size: 160%;
+  color: white;
+  position: absolute;
+  top: 69%;
+  left: 18%;
+}
+
+.caixa_preço {
+  width: 20%;
+  text-align: center;
+  padding: 0px;
+  background: rgb(20, 20, 20);
+  border-radius: 10%;
+  position: absolute;
+  top: 76%;
+  left: 74%;
+  color: white;
+}
+
+.caixa1 {
+  position: absolute;
+  top: 180%;
+}
+
+.caixa2 {
+  position: absolute;
+  top: 180%;
+  left: 35%;
+}
+
+.caixa3 {
+  position: absolute;
+  top: 180%;
+  left: 69%;
+}
+
+.caixa4 {
+  position: absolute;
+  top: 240%;
+}
+
+.caixa5 {
+  position: absolute;
+  top: 240%;
+  left: 35%;
+}
+
+.caixa6 {
+  position: absolute;
+  top: 240%;
+  left: 69%;
+}
+
+.caixa7 {
+  position: absolute;
+  top: 300%;
+}
+
+.caixa8 {
+  position: absolute;
+  top: 300%;
+  left: 35%;
+}
+
+.caixa9 {
+  position: absolute;
+  top: 300%;
+  left: 69%;
+}
+
+a.link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+
+.texto {
+  color: azure;
+  font-size: 220%;
+  text-decoration:none;
+  font-family: fonteee;
+}
+
+.texto2 {
+  color: azure;
+  font-size: 350%;
+  text-decoration:none;
+}
+
+.texto3 {
+  color: azure;
+  font-size: 130%;
+  text-decoration:none;
+}
+
+.anuncio {
+  position: absolute;
+  top: 30%;
+  left: 4%;
+}
+
+.assita{
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
+
+.projeto {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+}
+
+.jogos {
+  position: absolute;
+  top: 5%;
+  left: 45%;
+}
+
+.logar {
+  position: absolute;
+  top: 5%;
+  left: 93%;
+}
+
+.foto {
+  position: absolute;
+  top: 3%;
+  left: 81.5%;
+  height: 23%;
+  width: 9%;
+  border-radius: 50%;
+}
+
+.borda {
+  position: absolute;
+  top: -1%;
+  left: 78.5%;
+  width: 12%;
+}
+
+.registrar {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+.textocentro {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+.fundo_feet {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(19, 18, 18);
+  margin-top: 120%;
+}
+
+.fundo_feet2 {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(19, 18, 18);
+  margin-top: 90%;
+}
+
+.icone2 {
+  margin-left: 42.5%;
+}
+
+.logo2 {
+  width: 25%;
+}
+
+.cprigh {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.602);
+}
+
+.txtfeet {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.602);
+}
+
+.facebook {
+  width: 2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 2px solid grey;
+  float: left;
+  width: 30%;
+  background: #0000005e;
+  border-radius: 3%;
+  color: white;
+}
+
+form.example button {
+  float: left;
+  width: 6.5%;
+  background: rgba(33, 243, 243, 0.164);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: rgba(33, 243, 233, 0.548);
+}
+
+.procura {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+}
+
+.busca {
+  width: 100%;
+}
+
+.saida {
+  width: 70%;
+  height: 50%;
+}
+
+.border {
+  border-radius: 10%;
+}
+
+.bua_registro  {
+  background-image: url("Imgs/fundo2.jpg");
+  background-color: #000000;
+}
+
+.fundo_registro {
+  height: 667px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
+.txt {
+  position: absolute;
+  top: 150px;
+  left: 10%;
+  font-size: 30px;
+  color: rgb(216, 216, 216);
+  text-shadow: 2px 2px #000000;
+}
+
+.cadastro {
+  height:650px;
+  width: 30%;
+  border: 2px solid black;
+  background-color: #2724248e;
+  position: absolute;
+  top: -1px;
+  left: 35%;
+}
+
+.loguin {
+  height:540px;
+  width: 30%;
+  border: 2px solid black;
+  background-color: #2724248e;
+  position: absolute;
+  top: -1px;
+  left: 35%;
+}
+
+.login1 {
+  position: absolute;
+  top: 220px;
+  left:5%;
+  height: 30px;
+  width: 90%;
+  text-align: center;
+}
+
+.nick {
+  position: absolute;
+  top: 280px;
+  left:5%;
+  height: 30px;
+  width: 90%;
+  text-align: center;
+}
+
+.senha1 {
+  height: 30px;
+  width: 90%;
+  text-align: center;
+}
+
+.senha1lugar {
+  position: relative;
+  top: 280px;
+  left:5%;
+}
+
+.senha1lugar2 {
+  margin-top: 15%;
+  position: relative;
+  top: 280px;
+  left:5%;
+}
+
+.confsenha {
+  margin-top: 30%;
+  position: absolute;
+  top: 280px;
+  left:5%;
+  height: 30px;
+  width: 90%;
+  text-align: center;
+}
+
+.btn_entrar {
+  border: 2px solid black;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 19px 48px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top:  450px;
+  left: 10%;
+  white-space: nowrap;
+  text-shadow: 2px 2px #333333;
+}
+
+.btn_entrar2 {
+  border: 2px solid black;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 19px 48px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top:  350px;
+  left: 10%;
+  white-space: nowrap;
+  text-shadow: 2px 2px #333333;
+}
+
+.btn_registro {
+  border: 2px solid black;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 16px 100px;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top:  550px;
+  left: 10%;
+  white-space: nowrap;
+  text-shadow: 2px 2px #333333;
+}
+
+.btn_registro2 {
+  border: 2px solid black;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 16px 100px;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top:  450px;
+  left: 10%;
+  white-space: nowrap;
+  text-shadow: 2px 2px #333333;
+}
+
+.esqueceu {
+  color: rgb(216, 216, 216);
+  position: absolute;
+  top:  460px;
+  left: 48%;
+  font-size: 20px;
+  white-space: nowrap;
+  text-shadow: 2px 2px #000000;
+}
+
+.esqueceu2 {
+  color: rgb(216, 216, 216);
+  position: absolute;
+  top:  365px;
+  left: 48%;
+  font-size: 20px;
+  white-space: nowrap;
+  text-shadow: 2px 2px #000000;
+}
+
+.voltar {
+  color: rgb(216, 216, 216);
+  position: absolute;
+  top:  5px;
+  left: 2%;
+  font-size: 18px;
+  white-space: nowrap;
+  text-shadow: 2px 2px #000000;
+}
+
+.logo_registro {
+  position: absolute;
+  top:  10px;
+  left: 25%;
+  height: 130px;
+}

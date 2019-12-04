@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akira Indie</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="js/troca_div_acao.js"></script>
+</head>
+<body>
+    <div class="fundo">
+        <img class="img" src="imgs/fundo.jpg">
+    </div>
+    <div class="video">
+            <iframe width="590" height="395" src="https://www.youtube.com/embed/VhVEgxwmlXg" frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="navbar">
+        <a class="icone" href="menu.html">
+            <img class="logo" src="imgs/logo.png" alt="logotipo">
+        </a>
+        <div class="procura">
+        <form class="example" action="/action_page.php">
+            <input type="text" placeholder="Procura.." name="search">
+            <button type="submit"><img class="busca" src="imgs/busca.png"></button>
+          </form>
+        </div>
+        <a class="texto projeto" href="Nosso Projeto">Nosso Projeto</a>
+        <a class="texto jogos" href="menu.html">Ver Jogos</a>
+        <a class="texto logar" href="">Icone</a>
+
+        <a class="texto2 anuncio" href="">Jogo do Mês : Inmost <br> Assista ao Trailer:</a>
+        <a class="texto3 assita" href="">MÍNIMOS: <br>
+                SO: Windows 7 or higher <br>
+                Memória: 512 MB de RAM <br>
+                Placa de vídeo: Radeon hd 5670 or higher <br>
+                DirectX: Versão 9.0c
+        </a>
+    </div>
+
+    <div class="div-jogos">
+        <p class="texto"> Procure por uma TAG </p>
+        <a href="menu.html" class="link">
+        <div class="tagsselecionada acao">
+            <img class="img_tag" src="imgs/acao.PNG">
+            <p class="texto alinhado_txt">Ação</p>
+        </div>
+        </a>
+
+        <a href="aventura.html" class="link">
+        <div class="tags aventura">
+            <img class="img_tag" src="imgs/aventura.PNG">
+            <p class="texto alinhado_txt">Aventura</p>
+        </div>
+        </a>
+
+        <a href="rpg.html" class="link">
+        <div class="tags rpg">
+            <img class="img_tag" src="imgs/rpg.PNG">
+            <p class="texto alinhado_txt">RPG</p>
+        </div>
+        </a>
+        
+        <a href="plataforma.html" class="link">
+        <div class="tags plataforma">
+            <img class="img_tag" src="imgs/plataforma.png">
+            <p class="texto alinhado_txt">Plataforma</p>
+        </div>
+        </a>
+        
+        <a href="multiplayer.html" class="link">
+        <div class="tags multiplayer">
+            <img class="img_tag" src="imgs/multiplayer.PNG">
+            <p class="texto alinhado_txt">Multiplayer</p>
+        </div>
+        </a>
+
+        <div class="sublinhado"></div>
+
+        <div class="tagacao">
+            <p class="topjogos texto3">#tag: Ação</p>
+        </div>
+
+        <div id="seila">
+        
+        <div class="selecionado">
+            <button class="topjogos button" onclick="populares()">Jogos populares</button>
+        </div>
+
+        <div class="n_selecionado">
+            <button class="topjogos button" onclick="jogosnovos()">Jogos novos</button>
+        </div>
+
+        <a href="https://store.steampowered.com/app/938560/INMOST/" class="link">
+        <div class="caixas caixa1">
+            <img class="imgs_caixas" src="imgs/gamedev.jpg"> <br>
+            <img class="classific" src="imgs/livre.png">
+            <p class="nome_jogo">Inmost</p>
+            <div class="caixa_preço">R$ 11,59</div>
+        </div>
+        </a>
+
+        <a href="https://store.steampowered.com/app/460950/Katana_ZERO/" class="link">
+        <div class="caixas caixa2">
+            <img class="imgs_caixas" src="imgs/katana.jpg"> <br>
+            <img class="classific" src="imgs/14anos.PNG">
+            <p class="nome_jogo">Katana ZERO</p>
+            <div class="caixa_preço">R$ 19,42</div>
+        </div>
+        </a>
+
+        <a href="https://store.steampowered.com/app/105600/Terraria/" class="link">
+        <div class="caixas caixa3">
+            <img class="imgs_caixas" src="imgs/terraria.jpg"> <br>
+            <img class="classific" src="imgs/livre.png">
+            <p class="nome_jogo">Terraria</p>
+            <div class="caixa_preço">R$ 9,99</div>
+        </div>
+        </a>
+
+        <a href="https://store.steampowered.com/app/245170/Skullgirls/" class="link">
+        <div class="caixas caixa4">
+            <img class="imgs_caixas" src="imgs/skullgirls.jpg"> <br>
+            <img class="classific" src="imgs/12anos.png">
+            <p class="nome_jogo">Skullgirls</p>
+            <div class="caixa_preço">R$ 5,99</div>
+        </div>
+        </a>
+        
+        <a href="https://store.steampowered.com/app/233450/Prison_Architect" class="link">
+        <div class="caixas caixa5">
+            <img class="imgs_caixas" src="imgs/prision.jpg"> <br>
+            <img class="classific" src="imgs/16anos.PNG">
+            <p class="nome_jogo">Prison Architect</p>
+            <div class="caixa_preço">R$ 57,99</div>
+        </div>
+        </a>
+
+        <a href="https://store.steampowered.com/app/557340/My_Friend_Pedro/" class="link">
+        <div class="caixas caixa6">
+            <img class="imgs_caixas" src="imgs/pedro.jpg"> <br>
+            <img class="classific" src="imgs/14anos.png">
+            <p class="nome_jogo">My Friend Pedro</p>
+            <div class="caixa_preço">R$ 26,59</div>
+        </div>
+        </a>
+
+        <a href="https://store.steampowered.com/app/40800/Super_Meat_Boy/" class="link">
+        <div class="caixas caixa7">
+            <img class="imgs_caixas" src="imgs/SMB.jpg"> <br>
+            <img class="classific" src="imgs/16anos.png">
+            <p class="nome_jogo">Super Meat Boy</p>
+            <div class="caixa_preço">R$ 24,49</div>
+        </div>
+        </a>
+    </div>
+    </div>
+    <div class="fundo_feet">
+        <div class="icone2">
+            <img class="logo2" src="imgs/logo.png" alt="logotipo">
+        </div>
+        <br>
+        <p class="cprigh">© 2019 Akira Corporation. Todos os direitos reservados. Todas as marcas são propriedade dos seus respectivos donos no Brasil e em outros países.<br>
+            IVA incluso em todos os preços onde aplicável. <b>Política de Privacidade   |   Termos Legais   |   Acordo de Assinatura do Steam   |   Reembolsos</b></p>
+        
+        <p class="txtfeet">
+            Sobre-Nós  |  Nos siga no
+            <img class="facebook" src="imgs/facebook.png" alt="facebook">acebook
+        </p>
+    </div>
+</html>
