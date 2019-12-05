@@ -6,18 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <script src="js/login.js"></script>
+
 </head>
 <body class="bua_registro">
 <img class="fundo_registro" src="imgs/wallp.png" alt="fundo">
 <div class="loguin">
     <b class="txt">Entrar na conta Akira Indie</b>
     <img class="logo_registro" src="imgs/logo.png" alt="logo">
-    <input class="login1" placeholder="Insira seu Email" type="email" id="login">
-    <div class="senha1lugar">
-    <input class="senha1" placeholder="Insira sua Senha" type="password" id="senha">
-    </div>
 
-    <button class="btn_entrar2" onclick="entrar()">Entrar</button>
+    <form id="form_login" method="post" onsubmit="return entrar()">
+    <input class="login1" placeholder="Insira seu Email" type="email" name="login">
+    <div class="senha1lugar">
+    <input class="senha1" placeholder="Insira sua Senha" type="password" name="senha">
+    </div>
+    <button class="btn_entrar2" type="submit" id="btn_entrar">Entrar</button>
+    </form>
+
+    
     <a href="#esqueceu" class="esqueceu2">Esqueceu sua senha?</a>
     <a href="menu.html" class="voltar">Voltar</a>
 

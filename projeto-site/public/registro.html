@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
+    <title>Registro</title>
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <script src="js/registro.js"></script>
+
 </head>
 <body class="bua_registro">
 <img class="fundo_registro" src="imgs/wallp.png" alt="fundo">
 <div class="cadastro">
     <b class="txt">Registrar na Akira Indie</b>
     <img class="logo_registro" src="imgs/logo.png" alt="logo">
-    <input class="login1" placeholder="Insira seu Email" type="email" id="login">
-    <input class="nick" placeholder="Insira seu Apelido" type="text" id="nick">
+
+    <form id="form_cadastro" method="post" onsubmit="return cadastrar()">
+    <input class="login1" placeholder="Insira seu Email" type="email" name="login" required minlength="4">
+    <input class="nick" placeholder="Insira seu Apelido" type="text" name="nome" required minlength="4">
     <div class="senha1lugar2">
-    <input class="senha1" placeholder="Insira sua Senha" type="password" id="senha">
+    <input class="senha1" placeholder="Insira sua Senha" type="password" name="senha" id="senha" required minlength="4">
     </div>
     <input class="confsenha" placeholder="Confirme sua Senha" type="password" id="senha2">
+    <button class="btn_entrar" type="submit" id="btn_entrar">Registrar</button>
+    </form>
 
-    <button class="btn_entrar" onclick="entrar()">Entrar</button>
     <a href="#esqueceu" class="esqueceu">Esqueceu sua senha?</a>
     <a href="login.html" class="voltar">Voltar</a>
-
-    <form action="registro.html">
-        <input class="btn_registro" type="submit" value="Se Cadastrar" />
-    </form>    
 </div>
 </body>
 </html>
